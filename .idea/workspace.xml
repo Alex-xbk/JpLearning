@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b4341234-ea56-4807-9f78-64e9a93e216b" name="Default Changelist" comment="" />
+    <list default="true" id="b4341234-ea56-4807-9f78-64e9a93e216b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alex/jplearning/TestMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alex/jplearning/TestMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/alex/jplearning/JplearningApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/alex/jplearning/JplearningApplicationTests.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,11 +19,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/alex/jplearning/JplearningApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/alex/jplearning/TestMain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="203">
+              <caret line="183" column="23" selection-start-line="183" selection-start-column="23" selection-end-line="183" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/alex/jplearning/JplearningApplicationTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="282">
+              <caret line="46" column="54" lean-forward="true" selection-start-line="46" selection-start-column="54" selection-end-line="46" selection-end-column="54" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -33,6 +58,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>sentence</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -40,8 +70,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/alex/jplearning/MealDefination.java" />
-        <option value="$PROJECT_DIR$/src/main/java/alex/jplearning/TestMain.java" />
         <option value="$PROJECT_DIR$/src/test/java/alex/jplearning/JplearningApplicationTests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/alex/jplearning/TestMain.java" />
       </list>
     </option>
   </component>
@@ -63,7 +93,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -74,6 +104,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -107,17 +138,42 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="jplearning" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="jplearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jplearning" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jplearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jplearning" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jplearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jplearning" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jplearning" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -133,7 +189,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.JplearningApplication">
+  <component name="RunManager" selected="JUnit.JplearningApplicationTests.testJp">
     <configuration name="JplearningApplicationTests.testJp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jplearning" />
       <extension name="coverage">
@@ -176,50 +232,51 @@
       <workItem from="1585880023188" duration="6449000" />
       <workItem from="1586325307922" duration="3346000" />
       <workItem from="1588147028134" duration="2000" />
-      <workItem from="1607495777774" duration="3245000" />
+      <workItem from="1607495777774" duration="4033000" />
+      <workItem from="1607924457528" duration="3771000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="JplearningApplicationTests_testJp - 2020.04.03 at 11h 27m 46s.xml">
+    <history-entry file="JplearningApplicationTests_testJp - 2020.12.14 at 14h 22m 16s.xml">
       <configuration name="JplearningApplicationTests.testJp" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JplearningApplicationTests_testJp - 2020.04.03 at 20h 43m 28s.xml">
+    <history-entry file="JplearningApplicationTests_testJp - 2020.12.14 at 14h 26m 38s.xml">
       <configuration name="JplearningApplicationTests.testJp" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JplearningApplicationTests_testJp - 2020.04.03 at 20h 44m 12s.xml">
+    <history-entry file="JplearningApplicationTests_testJp - 2020.12.14 at 14h 28m 49s.xml">
       <configuration name="JplearningApplicationTests.testJp" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JplearningApplicationTests_testJp - 2020.04.08 at 14h 11m 38s.xml">
+    <history-entry file="JplearningApplicationTests_testJp - 2020.12.14 at 14h 29m 02s.xml">
       <configuration name="JplearningApplicationTests.testJp" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JplearningApplicationTests_testJp - 2020.12.09 at 15h 08m 48s.xml">
+    <history-entry file="JplearningApplicationTests_testJp - 2020.12.14 at 14h 34m 41s.xml">
       <configuration name="JplearningApplicationTests.testJp" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JplearningApplicationTests_testJp - 2020.12.09 at 15h 11m 07s.xml">
+    <history-entry file="JplearningApplicationTests_testJp - 2020.12.14 at 14h 34m 59s.xml">
       <configuration name="JplearningApplicationTests.testJp" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JplearningApplicationTests_testJp - 2020.12.09 at 15h 11m 22s.xml">
+    <history-entry file="JplearningApplicationTests_testJp - 2020.12.14 at 14h 41m 11s.xml">
       <configuration name="JplearningApplicationTests.testJp" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JplearningApplicationTests_testJp - 2020.12.09 at 15h 11m 27s.xml">
+    <history-entry file="JplearningApplicationTests_testJp - 2020.12.14 at 14h 41m 56s.xml">
       <configuration name="JplearningApplicationTests.testJp" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JplearningApplicationTests_testJp - 2020.12.09 at 15h 11m 59s.xml">
+    <history-entry file="JplearningApplicationTests_testJp - 2020.12.14 at 14h 42m 33s.xml">
       <configuration name="JplearningApplicationTests.testJp" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JplearningApplicationTests_testJp - 2020.12.09 at 15h 15m 04s.xml">
+    <history-entry file="JplearningApplicationTests_testJp - 2020.12.14 at 14h 43m 52s.xml">
       <configuration name="JplearningApplicationTests.testJp" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13042000" />
+    <option name="totallyTimeSpent" value="17601000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26037195" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2639485" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -229,13 +286,13 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.38785625" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3630731" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.36431226" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32961586" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32961586" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" />
@@ -261,6 +318,41 @@
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>main.romanSentence()[0]</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>main.romanSentence()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>romanWords,romanAnswers</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>romanWords,
+        romanAnswers</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>romanWords</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>hiragana[r1]</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/alex/jplearning/MealDefination.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -283,16 +375,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/alex/jplearning/TestMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="903">
-          <caret line="152" column="51" lean-forward="true" selection-start-line="152" selection-start-column="51" selection-end-line="152" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -315,17 +398,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/alex/jplearning/JplearningApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/alex/jplearning/JplearningApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jpLearning2020-12-14.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/alex/jplearning/JplearningApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="46" column="54" lean-forward="true" selection-start-line="46" selection-start-column="54" selection-end-line="46" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/alex/jplearning/TestMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="183" column="23" selection-start-line="183" selection-start-column="23" selection-end-line="183" selection-end-column="23" />
         </state>
       </provider>
     </entry>

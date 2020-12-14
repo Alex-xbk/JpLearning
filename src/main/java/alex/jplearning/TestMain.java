@@ -146,31 +146,57 @@ public class TestMain {
 
 
 
-    public String romanSentence(){
+    public String[] romanSentence(){
         StringBuilder romanSentence = new StringBuilder();
-        for (int i=0;i<40;i++){
+        StringBuilder romanAnswerSentence = new StringBuilder();
+        for (int i=0;i<10;i++){
             Random r = new Random();
-            romanSentence.append(roman[r.nextInt(108)]);
+            int r1 = r.nextInt(108);
+            int r2 = r.nextInt(2);
+            romanSentence.append(roman[r1]);
             romanSentence.append("(");
-            romanSentence.append(type[r.nextInt(2)]);
+            romanSentence.append(type[r2]);
             romanSentence.append(")");
             romanSentence.append(",");
+
+            generateAnswer(romanAnswerSentence, r1, type[r2]);
         }
-        return romanSentence.toString();
+        return new String[]{ romanSentence.toString(),romanAnswerSentence.toString() };
     }
 
-    public String sentence(){
+    private void generateAnswer(StringBuilder romanAnswerSentence, int r1, String type) {
+        if(type.equals("平")){
+            romanAnswerSentence.append(hiragana[r1]);
+        }else{
+            romanAnswerSentence.append(katakana[r1]);
+        }
+        romanAnswerSentence.append(",");
+    }
+
+    public String[] sentence(){
         StringBuilder sentence = new StringBuilder();
         List<String> list = new ArrayList<>();
-        for (int i=0;i<40;i++){
+        StringBuilder answer = new StringBuilder();
+        for (int i=0;i<10;i++){
             Random r = new Random();
-            list.add(hiragana[r.nextInt(108)]);
-            list.add(katakana[r.nextInt(108)]);
-
-            Collections.shuffle(list);
-
+            int r1 = r.nextInt(108);
+            int r2 = r.nextInt(108);
+            list.add("(");
+            list.add(hiragana[r1]);
+            list.add(",");
+            list.add(katakana[r2]);
+            list.add(")");
+            answer.append("(");
+            answer.append(roman[r1]);
+            answer.append(",");
+            answer.append(roman[r2]);
+            answer.append(")");
+//            Collections.shuffle(list);
         }
         list.forEach(sentence::append);
-        return sentence.toString();
+        return new String[]{ sentence.toString() , answer.toString() };
     }
+//    public String romanSentenceAnswer(){
+//
+//    }
 }
